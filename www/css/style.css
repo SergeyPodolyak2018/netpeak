@@ -440,4 +440,19 @@ a{
 .ring_container img{
   z-index: 400;
 }
+/*--------------------- eighth block----------------------------------------  */
+.bl_reviews{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;  
+}
 
+.bl_reviews_explane{
+  width:535px;
+  background-color: #ffffff;
+  display:flex;
+  justify-content:center;
+  align-items: center;  
+  
+}
