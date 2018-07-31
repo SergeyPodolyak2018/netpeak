@@ -444,15 +444,98 @@ a{
 .bl_reviews{
   width:100%;
   display:flex;
-  justify-content:center;
+  justify-content: space-between;
   align-items: center;  
 }
 
 .bl_reviews_explane{
   width:535px;
   background-color: #ffffff;
+  padding-top: 144px;
+  padding-left: 135px;
+   
+}
+
+.stars{
+  margin-bottom: 64px;
+}
+.row_and_rext{
+  display:flex;
+  justify-content:left;
+  align-items: center;
+  color: #282b31;
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 50px;  
+  letter-spacing: 0.65px;
+}
+.row_and_rext img{
+  margin-right: 14px;
+}
+.bl_reviews_header{
+  color: #282b31;
+  font-family: "Nunito Sans";
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 50px;
+  letter-spacing: 0.88px;
+  margin-bottom: 245px;
+
+}
+.bl_reviews_header span{
+  font-weight: 800;
+}
+.bl_reviews_wish{
+  color: #999ea8;
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 50px;  
+  letter-spacing: 0.33px;
+}
+
+.bl_reviews_people{
   display:flex;
   justify-content:center;
-  align-items: center;  
-  
+  align-items: center;
+  flex-direction:column; 
+}
+.customers_review{
+  width: 570px;
+  height: 180px;
+  box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #282b31;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-style: italic;
+  line-height: 25px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.customers_review_text,.customers_review_author{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customers_review_author{
+  color: #999ea8;
+  font-family: "Nunito Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 50px;  
+}
+.customers_review_author span{
+  font-weight: 700;
+}
+.normal{
+  margin-right: 235px;
+}
+.revers{
+ text-align: right;
+ margin-right: 0px;
+ align-self: flex-end;
 }
