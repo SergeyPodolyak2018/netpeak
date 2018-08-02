@@ -501,7 +501,7 @@ a{
   justify-content:center;
   align-items: center;
   flex-direction:column; 
-  max-width: 670px;
+  width: 670px;
 }
 .customers_review{
   max-width: 570px;
@@ -582,6 +582,7 @@ a{
   width: 350px;
   height: 510px;
   background-image:url('../img/background (4).png');
+  background-repeat:no-repeat;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -908,6 +909,10 @@ a{
   }
   .headerMenu{
         margin-bottom: 50px
+  }
+
+  .bl_reviews_people{  
+   width: 100%;
   }
 
 }
